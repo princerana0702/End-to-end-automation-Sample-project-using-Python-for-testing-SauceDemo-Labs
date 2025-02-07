@@ -1,4 +1,4 @@
-Follow these steps to set up and run your Selenium + Pytest + Page Object Model +Jenkins  automation framework
+Follow these steps to set up and run your (Selenium + Pytest + Page Object Model +Jenkins)  automation framework
 
 
 1.Install Dependencies
