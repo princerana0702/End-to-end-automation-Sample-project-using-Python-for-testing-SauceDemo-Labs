@@ -1,0 +1,266 @@
+2025-02-07 19:54:02,253 - INFO - ===== Starting test: test_valid_login =====
+2025-02-07 19:54:02,253 - INFO - Opening SauceDemo login page
+2025-02-07 19:54:02,253 - INFO - Opening URL: https://www.saucedemo.com/
+2025-02-07 19:54:04,219 - INFO - Entering username: standard_user
+2025-02-07 19:54:04,219 - INFO - Entering password: ************
+2025-02-07 19:54:04,219 - INFO - Attempting login with username: standard_user
+2025-02-07 19:54:04,219 - INFO - Entering text 'standard_user' in ('id', 'user-name')
+2025-02-07 19:54:04,220 - INFO - Finding element: ('id', 'user-name')
+2025-02-07 19:54:04,492 - INFO - Entering text 'secret_sauce' in ('id', 'password')
+2025-02-07 19:54:04,493 - INFO - Finding element: ('id', 'password')
+2025-02-07 19:54:04,693 - INFO - Clicking on element: ('id', 'login-button')
+2025-02-07 19:54:04,695 - INFO - Finding element: ('id', 'login-button')
+2025-02-07 19:54:04,827 - INFO - Login button clicked
+2025-02-07 19:54:04,827 - INFO - Checking if login is successful
+2025-02-07 19:54:04,836 - INFO - Test Passed: test_valid_login
+2025-02-07 19:54:09,049 - INFO - ===== Starting test: test_invalid_login =====
+2025-02-07 19:54:09,050 - INFO - Opening URL: https://www.saucedemo.com/
+2025-02-07 19:54:09,956 - INFO - Entering invalid username and password
+2025-02-07 19:54:09,957 - INFO - Attempting login with username: wrong_user
+2025-02-07 19:54:09,957 - INFO - Entering text 'wrong_user' in ('id', 'user-name')
+2025-02-07 19:54:09,957 - INFO - Finding element: ('id', 'user-name')
+2025-02-07 19:54:10,181 - INFO - Entering text 'wrong_pass' in ('id', 'password')
+2025-02-07 19:54:10,181 - INFO - Finding element: ('id', 'password')
+2025-02-07 19:54:10,352 - INFO - Clicking on element: ('id', 'login-button')
+2025-02-07 19:54:10,352 - INFO - Finding element: ('id', 'login-button')
+2025-02-07 19:54:10,473 - INFO - Login button clicked
+2025-02-07 19:54:10,473 - INFO - Checking if error message is displayed
+2025-02-07 19:54:10,479 - INFO - Test Passed: test_invalid_login
+2025-02-07 19:54:14,568 - INFO - ===== Starting test: test_blank_username_password =====
+2025-02-07 19:54:14,569 - INFO - Opening URL: https://www.saucedemo.com/
+2025-02-07 19:54:16,573 - INFO - Submitting login form with blank username & password
+2025-02-07 19:54:16,574 - INFO - Attempting login with username: 
+2025-02-07 19:54:16,574 - INFO - Entering text '' in ('id', 'user-name')
+2025-02-07 19:54:16,574 - INFO - Finding element: ('id', 'user-name')
+2025-02-07 19:54:16,741 - INFO - Entering text '' in ('id', 'password')
+2025-02-07 19:54:16,741 - INFO - Finding element: ('id', 'password')
+2025-02-07 19:54:16,864 - INFO - Clicking on element: ('id', 'login-button')
+2025-02-07 19:54:16,864 - INFO - Finding element: ('id', 'login-button')
+2025-02-07 19:54:16,981 - INFO - Login button clicked
+2025-02-07 19:54:16,981 - INFO - Checking if blank error message is displayed
+2025-02-07 19:54:16,989 - INFO - Test Passed: test_blank_username_password
+2025-02-07 19:54:21,151 - INFO - ===== Starting test: test_blank_password =====
+2025-02-07 19:54:21,151 - INFO - Opening URL: https://www.saucedemo.com/
+2025-02-07 19:54:23,401 - INFO - Entering username but leaving password blank
+2025-02-07 19:54:23,401 - INFO - Attempting login with username: standard_user
+2025-02-07 19:54:23,401 - INFO - Entering text 'standard_user' in ('id', 'user-name')
+2025-02-07 19:54:23,401 - INFO - Finding element: ('id', 'user-name')
+2025-02-07 19:54:23,584 - INFO - Entering text '' in ('id', 'password')
+2025-02-07 19:54:23,584 - INFO - Finding element: ('id', 'password')
+2025-02-07 19:54:23,680 - INFO - Clicking on element: ('id', 'login-button')
+2025-02-07 19:54:23,680 - INFO - Finding element: ('id', 'login-button')
+2025-02-07 19:54:23,775 - INFO - Login button clicked
+2025-02-07 19:54:23,775 - INFO - Checking if blank password error message is displayed
+2025-02-07 19:54:23,779 - INFO - Test Passed: test_blank_password
+2025-02-07 19:54:27,964 - INFO - ===== Starting test: test_blank_username =====
+2025-02-07 19:54:27,964 - INFO - Opening URL: https://www.saucedemo.com/
+2025-02-07 19:54:29,828 - INFO - Entering password but leaving username blank
+2025-02-07 19:54:29,829 - INFO - Attempting login with username: 
+2025-02-07 19:54:29,829 - INFO - Entering text '' in ('id', 'user-name')
+2025-02-07 19:54:29,829 - INFO - Finding element: ('id', 'user-name')
+2025-02-07 19:54:29,981 - INFO - Entering text 'secret_sauce' in ('id', 'password')
+2025-02-07 19:54:29,982 - INFO - Finding element: ('id', 'password')
+2025-02-07 19:54:30,156 - INFO - Clicking on element: ('id', 'login-button')
+2025-02-07 19:54:30,156 - INFO - Finding element: ('id', 'login-button')
+2025-02-07 19:54:30,273 - INFO - Login button clicked
+2025-02-07 19:54:30,273 - INFO - Checking if blank username error message is displayed
+2025-02-07 19:54:30,281 - INFO - Test Passed: test_blank_username
+2025-02-07 20:38:34,929 - INFO - ===== Starting test: test_valid_login =====
+2025-02-07 20:38:34,929 - INFO - Opening SauceDemo login page
+2025-02-07 20:38:34,930 - INFO - Opening URL: https://www.saucedemo.com/
+2025-02-07 20:38:37,124 - INFO - Entering username: standard_user
+2025-02-07 20:38:37,124 - INFO - Entering password: ************
+2025-02-07 20:38:37,124 - INFO - Attempting login with username: standard_user
+2025-02-07 20:38:37,124 - INFO - Entering text 'standard_user' in ('id', 'user-name')
+2025-02-07 20:38:37,124 - INFO - Finding element: ('id', 'user-name')
+2025-02-07 20:38:37,417 - INFO - Entering text 'secret_sauce' in ('id', 'password')
+2025-02-07 20:38:37,418 - INFO - Finding element: ('id', 'password')
+2025-02-07 20:38:37,629 - INFO - Clicking on element: ('id', 'login-button')
+2025-02-07 20:38:37,629 - INFO - Finding element: ('id', 'login-button')
+2025-02-07 20:38:37,881 - INFO - Login button clicked
+2025-02-07 20:38:37,881 - INFO - Checking if login is successful
+2025-02-07 20:38:37,910 - INFO - Test Passed: test_valid_login
+2025-02-07 20:38:42,633 - INFO - ===== Starting test: test_invalid_login =====
+2025-02-07 20:38:42,633 - INFO - Opening URL: https://www.saucedemo.com/
+2025-02-07 20:38:44,279 - INFO - Entering invalid username and password
+2025-02-07 20:38:44,279 - INFO - Attempting login with username: wrong_user
+2025-02-07 20:38:44,280 - INFO - Entering text 'wrong_user' in ('id', 'user-name')
+2025-02-07 20:38:44,280 - INFO - Finding element: ('id', 'user-name')
+2025-02-07 20:38:44,284 - ERROR - Error entering text in ('id', 'user-name'), Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x00007FF72CFB02F5+28725]
+	(No symbol) [0x00007FF72CF12AE0]
+	(No symbol) [0x00007FF72CDA510A]
+	(No symbol) [0x00007FF72CD7EEA5]
+	(No symbol) [0x00007FF72CE26F87]
+	(No symbol) [0x00007FF72CE3FA52]
+	(No symbol) [0x00007FF72CE1FD53]
+	(No symbol) [0x00007FF72CDEA0E3]
+	(No symbol) [0x00007FF72CDEB471]
+	GetHandleVerifier [0x00007FF72D2DF30D+3366989]
+	GetHandleVerifier [0x00007FF72D2F12F0+3440688]
+	GetHandleVerifier [0x00007FF72D2E78FD+3401277]
+	GetHandleVerifier [0x00007FF72D07AAAB+858091]
+	(No symbol) [0x00007FF72CF1E74F]
+	(No symbol) [0x00007FF72CF1A304]
+	(No symbol) [0x00007FF72CF1A49D]
+	(No symbol) [0x00007FF72CF08B69]
+	BaseThreadInitThunk [0x00007FFA825E259D+29]
+	RtlUserThreadStart [0x00007FFA83A4AF38+40]
+
+2025-02-07 20:38:44,287 - ERROR - Login failed due to error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x00007FF72CFB02F5+28725]
+	(No symbol) [0x00007FF72CF12AE0]
+	(No symbol) [0x00007FF72CDA510A]
+	(No symbol) [0x00007FF72CD7EEA5]
+	(No symbol) [0x00007FF72CE26F87]
+	(No symbol) [0x00007FF72CE3FA52]
+	(No symbol) [0x00007FF72CE1FD53]
+	(No symbol) [0x00007FF72CDEA0E3]
+	(No symbol) [0x00007FF72CDEB471]
+	GetHandleVerifier [0x00007FF72D2DF30D+3366989]
+	GetHandleVerifier [0x00007FF72D2F12F0+3440688]
+	GetHandleVerifier [0x00007FF72D2E78FD+3401277]
+	GetHandleVerifier [0x00007FF72D07AAAB+858091]
+	(No symbol) [0x00007FF72CF1E74F]
+	(No symbol) [0x00007FF72CF1A304]
+	(No symbol) [0x00007FF72CF1A49D]
+	(No symbol) [0x00007FF72CF08B69]
+	BaseThreadInitThunk [0x00007FFA825E259D+29]
+	RtlUserThreadStart [0x00007FFA83A4AF38+40]
+
+2025-02-07 20:38:44,291 - ERROR - Test Failed: test_invalid_login, Error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x00007FF72CFB02F5+28725]
+	(No symbol) [0x00007FF72CF12AE0]
+	(No symbol) [0x00007FF72CDA510A]
+	(No symbol) [0x00007FF72CD7EEA5]
+	(No symbol) [0x00007FF72CE26F87]
+	(No symbol) [0x00007FF72CE3FA52]
+	(No symbol) [0x00007FF72CE1FD53]
+	(No symbol) [0x00007FF72CDEA0E3]
+	(No symbol) [0x00007FF72CDEB471]
+	GetHandleVerifier [0x00007FF72D2DF30D+3366989]
+	GetHandleVerifier [0x00007FF72D2F12F0+3440688]
+	GetHandleVerifier [0x00007FF72D2E78FD+3401277]
+	GetHandleVerifier [0x00007FF72D07AAAB+858091]
+	(No symbol) [0x00007FF72CF1E74F]
+	(No symbol) [0x00007FF72CF1A304]
+	(No symbol) [0x00007FF72CF1A49D]
+	(No symbol) [0x00007FF72CF08B69]
+	BaseThreadInitThunk [0x00007FFA825E259D+29]
+	RtlUserThreadStart [0x00007FFA83A4AF38+40]
+
+2025-02-07 20:38:53,004 - INFO - ===== Starting test: test_blank_username_password =====
+2025-02-07 20:38:53,006 - INFO - Opening URL: https://www.saucedemo.com/
+2025-02-07 20:38:54,130 - INFO - Submitting login form with blank username & password
+2025-02-07 20:38:54,131 - INFO - Attempting login with username: 
+2025-02-07 20:38:54,131 - INFO - Entering text '' in ('id', 'user-name')
+2025-02-07 20:38:54,132 - INFO - Finding element: ('id', 'user-name')
+2025-02-07 20:38:54,369 - INFO - Entering text '' in ('id', 'password')
+2025-02-07 20:38:54,369 - INFO - Finding element: ('id', 'password')
+2025-02-07 20:38:54,596 - INFO - Clicking on element: ('id', 'login-button')
+2025-02-07 20:38:54,596 - INFO - Finding element: ('id', 'login-button')
+2025-02-07 20:38:54,781 - INFO - Login button clicked
+2025-02-07 20:38:54,782 - INFO - Checking if blank error message is displayed
+2025-02-07 20:38:54,789 - INFO - Test Passed: test_blank_username_password
+2025-02-07 20:38:58,909 - INFO - ===== Starting test: test_blank_password =====
+2025-02-07 20:38:58,909 - INFO - Opening URL: https://www.saucedemo.com/
+2025-02-07 20:38:59,599 - INFO - Entering username but leaving password blank
+2025-02-07 20:38:59,599 - INFO - Attempting login with username: standard_user
+2025-02-07 20:38:59,599 - INFO - Entering text 'standard_user' in ('id', 'user-name')
+2025-02-07 20:38:59,600 - INFO - Finding element: ('id', 'user-name')
+2025-02-07 20:38:59,855 - INFO - Entering text '' in ('id', 'password')
+2025-02-07 20:38:59,856 - INFO - Finding element: ('id', 'password')
+2025-02-07 20:38:59,978 - INFO - Clicking on element: ('id', 'login-button')
+2025-02-07 20:38:59,978 - INFO - Finding element: ('id', 'login-button')
+2025-02-07 20:39:00,099 - INFO - Login button clicked
+2025-02-07 20:39:00,100 - INFO - Checking if blank password error message is displayed
+2025-02-07 20:39:00,107 - INFO - Test Passed: test_blank_password
+2025-02-07 20:39:04,385 - INFO - ===== Starting test: test_blank_username =====
+2025-02-07 20:39:04,385 - INFO - Opening URL: https://www.saucedemo.com/
+2025-02-07 20:39:06,683 - INFO - Entering password but leaving username blank
+2025-02-07 20:39:06,684 - INFO - Attempting login with username: 
+2025-02-07 20:39:06,684 - INFO - Entering text '' in ('id', 'user-name')
+2025-02-07 20:39:06,684 - INFO - Finding element: ('id', 'user-name')
+2025-02-07 20:39:06,891 - INFO - Entering text 'secret_sauce' in ('id', 'password')
+2025-02-07 20:39:06,892 - INFO - Finding element: ('id', 'password')
+2025-02-07 20:39:07,158 - INFO - Clicking on element: ('id', 'login-button')
+2025-02-07 20:39:07,158 - INFO - Finding element: ('id', 'login-button')
+2025-02-07 20:39:07,375 - INFO - Login button clicked
+2025-02-07 20:39:07,375 - INFO - Checking if blank username error message is displayed
+2025-02-07 20:39:07,388 - INFO - Test Passed: test_blank_username
+2025-02-07 20:41:46,723 - INFO - ===== Starting test: test_valid_login =====
+2025-02-07 20:41:46,723 - INFO - Opening SauceDemo login page
+2025-02-07 20:41:46,724 - INFO - Opening URL: https://www.saucedemo.com/
+2025-02-07 20:41:47,811 - INFO - Entering username: standard_user
+2025-02-07 20:41:47,819 - INFO - Entering password: ************
+2025-02-07 20:41:47,819 - INFO - Attempting login with username: standard_user
+2025-02-07 20:41:47,819 - INFO - Entering text 'standard_user' in ('id', 'user-name')
+2025-02-07 20:41:47,819 - INFO - Finding element: ('id', 'user-name')
+2025-02-07 20:41:48,159 - INFO - Entering text 'secret_sauce' in ('id', 'password')
+2025-02-07 20:41:48,160 - INFO - Finding element: ('id', 'password')
+2025-02-07 20:41:48,395 - INFO - Clicking on element: ('id', 'login-button')
+2025-02-07 20:41:48,395 - INFO - Finding element: ('id', 'login-button')
+2025-02-07 20:41:48,563 - INFO - Login button clicked
+2025-02-07 20:41:48,563 - INFO - Checking if login is successful
+2025-02-07 20:41:48,572 - INFO - Test Passed: test_valid_login
+2025-02-07 20:41:52,875 - INFO - ===== Starting test: test_invalid_login =====
+2025-02-07 20:41:52,875 - INFO - Opening URL: https://www.saucedemo.com/
+2025-02-07 20:41:55,068 - INFO - Entering invalid username and password
+2025-02-07 20:41:55,068 - INFO - Attempting login with username: wrong_user
+2025-02-07 20:41:55,069 - INFO - Entering text 'wrong_user' in ('id', 'user-name')
+2025-02-07 20:41:55,069 - INFO - Finding element: ('id', 'user-name')
+2025-02-07 20:41:55,327 - INFO - Entering text 'wrong_pass' in ('id', 'password')
+2025-02-07 20:41:55,328 - INFO - Finding element: ('id', 'password')
+2025-02-07 20:41:55,559 - INFO - Clicking on element: ('id', 'login-button')
+2025-02-07 20:41:55,559 - INFO - Finding element: ('id', 'login-button')
+2025-02-07 20:41:55,750 - INFO - Login button clicked
+2025-02-07 20:41:55,750 - INFO - Checking if error message is displayed
+2025-02-07 20:41:55,760 - INFO - Test Passed: test_invalid_login
+2025-02-07 20:42:00,129 - INFO - ===== Starting test: test_blank_username_password =====
+2025-02-07 20:42:00,129 - INFO - Opening URL: https://www.saucedemo.com/
+2025-02-07 20:42:03,238 - INFO - Submitting login form with blank username & password
+2025-02-07 20:42:03,239 - INFO - Attempting login with username: 
+2025-02-07 20:42:03,239 - INFO - Entering text '' in ('id', 'user-name')
+2025-02-07 20:42:03,239 - INFO - Finding element: ('id', 'user-name')
+2025-02-07 20:42:03,391 - INFO - Entering text '' in ('id', 'password')
+2025-02-07 20:42:03,391 - INFO - Finding element: ('id', 'password')
+2025-02-07 20:42:03,528 - INFO - Clicking on element: ('id', 'login-button')
+2025-02-07 20:42:03,528 - INFO - Finding element: ('id', 'login-button')
+2025-02-07 20:42:03,725 - INFO - Login button clicked
+2025-02-07 20:42:03,726 - INFO - Checking if blank error message is displayed
+2025-02-07 20:42:03,736 - INFO - Test Passed: test_blank_username_password
+2025-02-07 20:42:07,928 - INFO - ===== Starting test: test_blank_password =====
+2025-02-07 20:42:07,929 - INFO - Opening URL: https://www.saucedemo.com/
+2025-02-07 20:42:09,864 - INFO - Entering username but leaving password blank
+2025-02-07 20:42:09,864 - INFO - Attempting login with username: standard_user
+2025-02-07 20:42:09,865 - INFO - Entering text 'standard_user' in ('id', 'user-name')
+2025-02-07 20:42:09,865 - INFO - Finding element: ('id', 'user-name')
+2025-02-07 20:42:10,107 - INFO - Entering text '' in ('id', 'password')
+2025-02-07 20:42:10,107 - INFO - Finding element: ('id', 'password')
+2025-02-07 20:42:10,190 - INFO - Clicking on element: ('id', 'login-button')
+2025-02-07 20:42:10,190 - INFO - Finding element: ('id', 'login-button')
+2025-02-07 20:42:10,267 - INFO - Login button clicked
+2025-02-07 20:42:10,267 - INFO - Checking if blank password error message is displayed
+2025-02-07 20:42:10,271 - INFO - Test Passed: test_blank_password
+2025-02-07 20:42:14,477 - INFO - ===== Starting test: test_blank_username =====
+2025-02-07 20:42:14,478 - INFO - Opening URL: https://www.saucedemo.com/
+2025-02-07 20:42:17,192 - INFO - Entering password but leaving username blank
+2025-02-07 20:42:17,193 - INFO - Attempting login with username: 
+2025-02-07 20:42:17,193 - INFO - Entering text '' in ('id', 'user-name')
+2025-02-07 20:42:17,193 - INFO - Finding element: ('id', 'user-name')
+2025-02-07 20:42:17,388 - INFO - Entering text 'secret_sauce' in ('id', 'password')
+2025-02-07 20:42:17,388 - INFO - Finding element: ('id', 'password')
+2025-02-07 20:42:17,684 - INFO - Clicking on element: ('id', 'login-button')
+2025-02-07 20:42:17,684 - INFO - Finding element: ('id', 'login-button')
+2025-02-07 20:42:17,890 - INFO - Login button clicked
+2025-02-07 20:42:17,890 - INFO - Checking if blank username error message is displayed
+2025-02-07 20:42:17,901 - INFO - Test Passed: test_blank_username

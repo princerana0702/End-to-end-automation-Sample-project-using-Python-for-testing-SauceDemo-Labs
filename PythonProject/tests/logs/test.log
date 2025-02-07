@@ -1,0 +1,14 @@
+INFO     root:test_login.py:46 ===== Starting test: test_invalid_login =====
+INFO     root:base_page.py:13 Opening URL: https://www.saucedemo.com/
+INFO     root:test_login.py:51 Entering invalid username and password
+INFO     root:login_page.py:12 Attempting login with username: wrong_user
+INFO     root:base_page.py:37 Entering text 'wrong_user' in ('id', 'user-name')
+INFO     root:base_page.py:18 Finding element: ('id', 'user-name')
+INFO     root:base_page.py:37 Entering text 'wrong_pass' in ('id', 'password')
+INFO     root:base_page.py:18 Finding element: ('id', 'password')
+INFO     root:base_page.py:28 Clicking on element: ('id', 'login-button')
+INFO     root:base_page.py:18 Finding element: ('id', 'login-button')
+INFO     root:login_page.py:16 Login button clicked
+INFO     root:test_login.py:54 Checking if error message is displayed
+INFO     root:test_login.py:57 Test Passed: test_invalid_login
+Test Passed: test_invalid_login
